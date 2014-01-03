@@ -86,6 +86,7 @@ DEFAULT_TEMPLATE = """
             </a>
             <ul class="nav navbar-nav navbar-right">
                 <li><a href="http://catcoins.biz"><i class="fa fa-info-circle"></i>Catcoins.biz</a></li>
+                <li><a href="http://catcoins.biz/charts"><i class="fa fa-bar-chart-o"></i>Charts</a></li>
                 <li class="active"><a href="http://catchain.info"><i class="fa fa-chain"></i>Blockchain</a></li>
                 <li><a href="http://catcoins.biz/address" target="_blank"><i class="fa fa-qrcode"></i>Wallets</a></li>
             </ul>
@@ -100,6 +101,7 @@ DEFAULT_TEMPLATE = """
         <hr class="clear">
         <div class="footer">
             <a href="http://catcoins.biz"><i class="fa fa-info-circle"></i>Catcoins.biz</a>
+            <a href="http://catcoins.biz/charts"><i class="fa fa-bar-chart-o"></i>Charts</a>
             <a href="http://catcoins.biz/address" target="_blank"><i class="fa fa-qrcode"></i>Wallets</a>
             <a href="http://catchain.info/q"><i class="fa fa-code"></i>API</a>
             <a href="http://catchain.info/address/9XZeUtaaQNyUmHQGF7xBm8n3o553kunJYb"><i class="fa fa-heart"></i>Donate</a>
