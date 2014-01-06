@@ -191,3 +191,13 @@ p.shortlink > a {
     text-align: left;
   }
 }
+
+.alert {
+  font-size: 14px;
+  font-weight: 300;
+  padding: 8px;
+}
+
+.alert-link {
+  font-weight: 500;
+}
