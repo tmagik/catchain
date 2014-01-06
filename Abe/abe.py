@@ -1165,6 +1165,7 @@ class Abe:
                  '<div><small>Sent</small>', format_amounts(sent, False), '</div>\n']
 
         body += ['</div>\n<hr class="clear">\n'
+                 '<div class="alert alert-info">Catcoin needs your help! Vote for CAT on this poll: <a class="alert-link" href="https://bitcointalk.org/index.php?topic=397540" target="_blank">https://bitcointalk.org/index.php?topic=397540</a> (it&rsquo;s near the bottom)</div><hr>'
                  '<table class="table table-condensed" class="table table-condensed">\n<tr><th>Transaction</th><th>Block</th>'
                  '<th>Approx. Time</th><th>Amount</th><th>Balance</th>'
                  '<th>Currency</th></tr>\n']
