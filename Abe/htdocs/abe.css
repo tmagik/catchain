@@ -198,6 +198,6 @@ p.shortlink > a {
   padding: 8px;
 }
 
-.alert-link {
+.alert .alert-link {
   font-weight: 500;
 }
