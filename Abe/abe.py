@@ -504,8 +504,7 @@ class Abe:
 
         extra = False
         #extra = True
-        body += ['', nav, '\n<hr>\n',
-                 '<div class="alert alert-info">Catcoin needs your help! Vote for CAT on this poll: <a class="alert-link" href="https://bitcointalk.org/index.php?topic=397540" target="_blank">https://bitcointalk.org/index.php?topic=397540</a> (it&rsquo;s near the bottom)</div><hr>',
+        body += ['', nav, '\n<hr>\n',                 
                  '<table class="table table-condensed"><tr><th>Block</th><th>Approx. Time</th>',
                  '<th>Transactions</th><th>Value Out</th>',
                  '<th>Difficulty</th><th>Outstanding</th>',
