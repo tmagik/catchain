@@ -41,13 +41,13 @@ __version__ = version.__version__
 
 ABE_APPNAME = 'Catchain'
 ABE_VERSION = __version__
-ABE_URL = 'https://github.com/catcoins/catchain'
+ABE_URL = 'https://github.com/CatcoinOfficial/catchain'
 
 COPYRIGHT_YEARS = '2011'
 COPYRIGHT = "Abe developers"
 COPYRIGHT_URL = 'https://github.com/bitcoin-abe'
 
-DONATIONS_CAT = '9XZeUtaaQNyUmHQGF7xBm8n3o553kunJYb'
+DONATIONS_CAT = ''
 
 TIME1970 = time.strptime('1970-01-01','%Y-%m-%d')
 EPOCH1970 = calendar.timegm(TIME1970)
@@ -80,15 +80,13 @@ DEFAULT_TEMPLATE = """
 <body>
     <nav class="navbar navbar-inverse navbar-default navbar-fixed-top" role="navigation">
         <div class="container">
-            <a class="navbar-brand" href="http://catcoins.biz">
+            <a class="navbar-brand" href="http://catcoins.org">
                 <img src="%(dotdot)s%(STATIC_PATH)scatcoin-glyph-aaaaaa.png" alt="" height="35">
                 Catcoin
             </a>
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="http://catcoins.biz"><i class="fa fa-info-circle"></i>Catcoins.biz</a></li>
-                <li><a href="http://catcoins.biz/charts"><i class="fa fa-bar-chart-o"></i>Charts</a></li>
-                <li class="active"><a href="http://catchain.info"><i class="fa fa-chain"></i>Blockchain</a></li>
-                <li><a href="http://catcoins.biz/address" target="_blank"><i class="fa fa-qrcode"></i>Wallets</a></li>
+                <li><a href="http://catcoins.org"><i class="fa fa-info-circle"></i>Catcoins.org</a></li>
+                <li><a href="http://catcoins.org" target="_blank"><i class="fa fa-qrcode"></i>Wallets</a></li>
             </ul>
         </div>
     </nav>
@@ -100,11 +98,7 @@ DEFAULT_TEMPLATE = """
         %(body)s
         <hr class="clear">
         <div class="footer">
-            <a href="http://catcoins.biz"><i class="fa fa-info-circle"></i>Catcoins.biz</a>
-            <a href="http://catcoins.biz/charts"><i class="fa fa-bar-chart-o"></i>Charts</a>
-            <a href="http://catcoins.biz/address" target="_blank"><i class="fa fa-qrcode"></i>Wallets</a>
-            <a href="http://catchain.info/q"><i class="fa fa-code"></i>API</a>
-            <a href="http://catchain.info/address/9XZeUtaaQNyUmHQGF7xBm8n3o553kunJYb"><i class="fa fa-heart"></i>Donate</a>
+            <a href="http://catcoins.org"><i class="fa fa-info-circle"></i>Catcoins.org</a>
         </div>
     </div>
 </body>
