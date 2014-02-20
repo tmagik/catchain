@@ -1,5 +1,5 @@
 body {
-  background: #f0f9fc;
+  background: white;
   font-size: 15px;
   padding: 70px 20px 20px;
 }
@@ -64,12 +64,12 @@ body > .content h3 {
 }
 
 body > .content a.anchor {
-  color: inherit;
+  color: rgb(218, 123, 8);
   text-decoration: none;
 }
 
 body > .content a.anchor:hover {
-  color: inherit;
+  color: rgb(218, 123, 8);
 }
 
 body > .content > hr {
@@ -87,7 +87,7 @@ p.shortlink > a {
 
 .table > tbody > tr > th {
   border: none;
-  color: #999;
+  color: rgb(218, 123, 8);
   font-weight: 300;
   text-align: center;
 }
@@ -99,6 +99,7 @@ p.shortlink > a {
 }
 
 .footer {
+  color: rgb(218, 123, 8);
   font-weight: 300;
   margin: -5px 0px;
 }
@@ -123,7 +124,7 @@ p.shortlink > a {
 }
 
 .information > div > small {
-  color: #999;
+  color: rgb(218, 123, 8);
   display: inline-block;
   font-size: 15px;
   font-weight: 300;
@@ -153,7 +154,7 @@ p.shortlink > a {
 }
 
 .information-inline > div > small {
-  color: #999;
+  color: rgb(218, 123, 8);
   font-size: 15px;
   font-weight: 300;
   margin-right: 5px;
