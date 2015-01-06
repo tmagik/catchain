@@ -68,14 +68,14 @@ DEFAULT_TEMPLATE = """
     <link rel="stylesheet" type="text/css" href="%(dotdot)s%(STATIC_PATH)sabe.css" />
     <link rel="shortcut icon" href="%(dotdot)s%(STATIC_PATH)sfavicon.ico" />
     <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-      ga('create', 'UA-36765833-3', 'catchain.info');
-      ga('send', 'pageview');
-    </script>
+  ga('create', 'UA-52148231-2', 'auto');
+  ga('send', 'pageview');
+</script>
 </head>
 <body>
     <nav class="navbar navbar-inverse navbar-default navbar-fixed-top" role="navigation">
@@ -1156,7 +1156,6 @@ class Abe:
                  '<div><small>Sent</small>', format_amounts(sent, False), '</div>\n']
 
         body += ['</div>\n<hr class="clear">\n'
-                 '<div class="alert alert-info">Catcoin needs your help! Vote for CAT on this poll: <a class="alert-link" href="https://bitcointalk.org/index.php?topic=397540" target="_blank">https://bitcointalk.org/index.php?topic=397540</a> (it&rsquo;s near the bottom)</div><hr>'
                  '<table class="table table-condensed" class="table table-condensed">\n<tr><th>Transaction</th><th>Block</th>'
                  '<th>Approx. Time</th><th>Amount</th><th>Balance</th>'
                  '<th>Currency</th></tr>\n']
